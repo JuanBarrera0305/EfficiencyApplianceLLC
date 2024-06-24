@@ -1,0 +1,293 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.section-header {
+	margin-bottom: 40px;
+}
+.section-header h2{
+	color: #08194a;
+	font-size: 45px;
+	font-weight: 700;
+}
+.navbar-nav a {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#phoneNumberButton {
+    background-color: #EC7522; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+	font-weight: bold;
+	margin-left: 25px !important;
+
+}
+.navbar-brand img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: -100px; /* Ensure it is aligned to the left */
+}
+
+.navbar-light .navbar-brand {
+	color: #08194A;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	/*  margin-left: -150px !important; */ 
+
+}
+
+.section-padding{
+	padding: 80px 0;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: .3;
+	background: #fff;
+}
+.carousel{
+	background-image: url(img/home.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 325px;
+	z-index: 2;
+	left: 8%;
+	background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	margin-top: 25px;
+	color: #08194A;
+	font-weight: 700;
+	text-align: left;
+}
+.carousel-caption h5 span {
+	color: #EC7522;
+}
+.carousel-caption p {
+	width: 60%;
+	font-size: 20px;
+	line-height: 1.8;
+	color: #08194A;
+	text-align: left;
+	font-weight: bold;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #08194A;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+/* about us */
+
+.img-area img{
+	width: 100% !important;
+}
+.about-text h2 {
+	font-size: 45px;
+	font-weight: 700;
+	color: #08194A;
+}
+.about-text h2 span{
+	color: #EC7522;
+}
+
+.about-text .btn {
+	background: #EC7522;
+	color: #fff;
+}
+
+/* choose us */
+
+.section-header h2 span{
+	color: #EC7522;
+}
+
+.choose-img img {
+	width: 100%;
+}
+.single-box {
+	padding: 20px;
+  }
+  .single-box i {
+	font-size: 35px;
+	margin-bottom: 25px;
+	color: #EC7522;
+  }
+  .single-box h2 {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #08194A;
+}
+
+/* services */
+
+.single-services {
+	background: #08194A;
+	color: #fff;
+	padding: 30px 15px;
+  }
+  .single-services i {
+	font-size: 45px;
+	margin-bottom: 30px;
+  }
+  .single-services h2 {
+	font-family: 'Bebas Neue', sans-serif;
+  }
+
+  /* testimonial */
+  .imgBox {
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+	margin: 0 auto 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	.imgBox img{
+		width: 100%;
+	}
+  .single-client {
+	box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+	padding: 30px 15px;
+  }
+  .single-client h2 {
+	color: #08194A;
+	font-family: 'Bebas Neue', sans-serif;
+  }
+
+
+  /* contact */
+
+  .left-contact {
+	background: #08194A;
+	padding: 60px;
+	color: #fff;
+}
+.left-contact h3 {
+	font-family: 'Bebas Neue', sans-serif;
+	margin-bottom: 20px;
+}
+label {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 28px;
+	margin: 10px 0;
+}
+.contact .btn {
+	background: #EC7522;
+	color: #fff;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+/* footer */
+
+footer {
+	background: #08194A;
+	padding: 35px 0;
+	color: #ffffff;
+  }
+  .socials i {
+	font-size: 25px;
+	margin: 0 15px;
+  }
+
+
+  /* responsive */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.about-text h2 {
+		margin: 20px 0;
+	}
+	.single-services {
+		margin-bottom: 30px;
+	}
+	.single-box {
+		margin-bottom: 30px;
+	}
+	.single-client {
+		margin-bottom: 35px;
+	}
+	.left-contact {
+		margin-bottom: 30px;
+	}
+  }
+
+  @media (max-width: 767px) {
+    .navbar-light .navbar-brand {
+        font-size: 15px; /* Adjust to desired size */
+        margin-left: 0; /* Adjust if needed */
+		display: inline;
+		
+    }
+    .navbar-brand img {
+        width: 75px; /* Ensure this matches your existing rule */
+        margin-left: 0; /* Adjust if needed */
+		display: inline;
+    }
+}
+
+
+  @media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center
+	}
+	.carousel-caption {
+		bottom: 100px
+	}
+	.carousel-caption h5 {
+		font-size: 20px
+	}
+	.carousel-caption p {
+		width: 100%;
+		font-size: 10px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 14px
+	}
+	.section-header h2 {
+		font-size: 30px;
+	}
+	.about-text h2 {
+		font-size: 30px;
+		margin: 15px 0;
+	}
+	.single-services {
+		padding: 15px;
+		margin-bottom: 30px;
+	}
+	.single-box {
+		margin-bottom: 30px;
+	}
+	.single-client {
+		margin-bottom: 30px;
+	}
+	.left-contact h3 {
+		text-align: center;
+	}
+	.left-contact p {
+		text-align: center;
+	}
+}
